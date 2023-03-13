@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Left Sidebar Layout</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 200px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      #content {
+        margin-left: 200px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <h1>Welcome to my website</h1>
+      <p>This is the home page content.</p>
+      <div id="about">
+        <h2>About Me</h2>
+        <p>I'm a web developer.</p>
+      </div>
+      <div id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at realaditi310@gmail.com</p>
+      </div>
+    </div>
+  </body>
+</html>
